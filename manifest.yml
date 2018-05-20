@@ -1,6 +1,6 @@
 ---
 applications:
-- name: myapp
+- name: app1
   memory: 128MB
   disk_quota: 256MB
   random-route: true
