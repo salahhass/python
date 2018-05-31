@@ -1,8 +1,12 @@
 ---
 applications:
-- name: app1
+- name: app2
   memory: 128MB
-  disk_quota: 256MB
+  disk_quota: 1024MB
+  docker:
+    image: salahhass1/ubuntu_cf_test
+    username: salahhass1
+    password: qwertyuioP123
   random-route: true
   buildpack: python_buildpack
   command: python hello.py
